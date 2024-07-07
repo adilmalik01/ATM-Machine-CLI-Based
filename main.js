@@ -6,7 +6,8 @@ let blue = chalk.blue.italic;
 let white = chalk.white.italic.bold;
 let red = chalk.red.italic;
 let cyan = chalk.cyanBright.italic;
-console.log(cyan("WELCOME TO THE ATM MADE BY ADIL MALIK"));
+console.log(cyan("\t\t WELCOME TO THE ATM MADE BY ADIL MALIK \n"));
+console.log(cyan("The Atm pin is : 4545 \n"));
 let userPin = "4545";
 let balance = 10000;
 const openATM = async () => {
